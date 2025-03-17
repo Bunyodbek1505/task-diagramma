@@ -28,9 +28,9 @@ function App() {
 
   const addChartToLayout = (type, imageUrl = null) => {
     const newLayout = {
-      id: `${type}-${Date.now()}`,
+      i: `${type}-${Date.now()}`,
       x: (layouts.length * 2) % 12,
-      y: Math.floor(layouts.length / 6) * 4,
+      y: Math.floor(layouts.length / 2) * 4,
       w: 6,
       h: 4,
       type,
